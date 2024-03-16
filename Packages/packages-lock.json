@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.dbrizov.naughtyattributes": {
-      "version": "https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "8a8fa5a9659a6d63f196391c71e06c4286c8acd7"
-    },
     "com.fennec-burrow-games-studio.fenneig-dialogue-system": {
       "version": "https://github.com/Fenneig/Fenneig_dialogue_system.git",
       "depth": 0,
