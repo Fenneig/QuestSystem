@@ -13,6 +13,13 @@ MonoBehaviour:
   m_Name: apples
   m_EditorClassIdentifier: 
   _id: apples
-  _questName: Appleloosa
+  _questName: Welcome to Appleloosa
   _questDescription: Get apples
+  _startQuestDialogue: {fileID: 11400000, guid: 246b37fe9122dfe4693232b56043ebaf,
+    type: 2}
+  _inprogressQuestDialogue: {fileID: 11400000, guid: 3b0b24c06796fff48b2ac37d860af95b,
+    type: 2}
+  _acceptQuestEvent: {fileID: 11400000, guid: c10351e504452d54595e56128157bd9d, type: 2}
+  _completeQuestEvent: {fileID: 11400000, guid: 5074be20875188d46871b766585317a1,
+    type: 2}
   _maxProgress: 10

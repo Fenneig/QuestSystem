@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a25e0e4c52c8e4393e1a5721365c2c, type: 3}
+  m_Name: QuestApples_Inprogress
+  m_EditorClassIdentifier: 
+  NodeLinkData:
+  - BaseNodeGuid: 7524b2ef-9935-46ee-845b-d86ddc8f343a
+    BasePortGuid: Output
+    TargetNodeGuid: 99bdc575-c087-40af-9d71-20aff0b3daee
+    TargetPortGuid: Input
+  - BaseNodeGuid: 0943f206-3fc1-4d04-b821-eaf4b6871a10
+    BasePortGuid: Output
+    TargetNodeGuid: 02dbb106-09d0-4ffb-a619-dafc44883590
+    TargetPortGuid: Input
+  - BaseNodeGuid: d194eaad-5c63-4cbe-a4cb-02b832450501
+    BasePortGuid: Output
+    TargetNodeGuid: 5f32016e-76db-43a7-a840-45f2a7b71e10
+    TargetPortGuid: Input
+  - BaseNodeGuid: 5f32016e-76db-43a7-a840-45f2a7b71e10
+    BasePortGuid: Output
+    TargetNodeGuid: 3eee74fe-9831-407f-95e1-c725a0101221
+    TargetPortGuid: Input
+  - BaseNodeGuid: 99bdc575-c087-40af-9d71-20aff0b3daee
+    BasePortGuid: 5531994d-479f-425c-a666-883dcd157e7f
+    TargetNodeGuid: d194eaad-5c63-4cbe-a4cb-02b832450501
+    TargetPortGuid: Input
+  - BaseNodeGuid: 99bdc575-c087-40af-9d71-20aff0b3daee
+    BasePortGuid: b5dc7461-1fc2-467a-927b-ade1ca2c0f6f
+    TargetNodeGuid: 0943f206-3fc1-4d04-b821-eaf4b6871a10
+    TargetPortGuid: Input
+  StartData:
+  - NodeGuid: 7524b2ef-9935-46ee-845b-d86ddc8f343a
+    Position: {x: 431, y: -622}
+  DialogueData:
+  - NodeGuid: 99bdc575-c087-40af-9d71-20aff0b3daee
+    Position: {x: 566, y: -622}
+    DialogueDataNames:
+    - ID:
+        Value: 0
+      GuidID:
+        Value: 0b7153f1-eafa-4d53-a8ae-397e4749cbb7
+      CharacterName:
+      - LanguageType: 1
+        LanguageGenericType: AppleJack
+      - LanguageType: 2
+        LanguageGenericType: "\u042D\u043F\u043B\u0434\u0436\u0435\u043A"
+    DialogueDataTexts:
+    - ID:
+        Value: 2
+      GuidID:
+        Value: bce3c14f-1ca4-431c-9c93-c5fec60ebae2
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: You already collect apples?
+      - LanguageType: 2
+        LanguageGenericType: "\u0422\u044B \u0443\u0436\u0435 \u0441\u043E\u0431\u0440\u0430\u043B
+          \u044F\u0431\u043B\u043E\u043A\u0438?"
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+    DialogueDataImages:
+    - ID:
+        Value: 1
+      LeftSprite:
+        Value: {fileID: 21300000, guid: 5f1b4b02f9fc06248a9c9ae624b4dcf5, type: 3}
+      RightSprite:
+        Value: {fileID: 21300000, guid: 002f6f7ab95415e46b133504b5b548cc, type: 3}
+    DialogueDataPorts:
+    - ID:
+        Value: 0
+      PortGuid: 5531994d-479f-425c-a666-883dcd157e7f
+      InputGuid: d194eaad-5c63-4cbe-a4cb-02b832450501
+      OutputGuid: 99bdc575-c087-40af-9d71-20aff0b3daee
+    - ID:
+        Value: 0
+      PortGuid: b5dc7461-1fc2-467a-927b-ade1ca2c0f6f
+      InputGuid: 0943f206-3fc1-4d04-b821-eaf4b6871a10
+      OutputGuid: 99bdc575-c087-40af-9d71-20aff0b3daee
+  EventData:
+  - NodeGuid: 5f32016e-76db-43a7-a840-45f2a7b71e10
+    Position: {x: 1326, y: -695}
+    EventDataStringModifiers: []
+    ContainerDialogueEventSOs:
+    - DialogueEventSO: {fileID: 11400000, guid: 5074be20875188d46871b766585317a1,
+        type: 2}
+  EndData:
+  - NodeGuid: 3eee74fe-9831-407f-95e1-c725a0101221
+    Position: {x: 1798, y: -836}
+    EndNodeType:
+      Value: 1
+  - NodeGuid: 02dbb106-09d0-4ffb-a619-dafc44883590
+    Position: {x: 1326, y: -309}
+    EndNodeType:
+      Value: 1
+  BranchData: []
+  ChoiceData:
+  - NodeGuid: 0943f206-3fc1-4d04-b821-eaf4b6871a10
+    Position: {x: 966, y: -456}
+    ChoiceStateType:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: I'll back later
+    - LanguageType: 2
+      LanguageGenericType: "\u042F \u0432\u0435\u0440\u043D\u0443\u0441\u044C \u043F\u043E\u0437\u0436\u0435."
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    EventDataStringConditions: []
+  - NodeGuid: d194eaad-5c63-4cbe-a4cb-02b832450501
+    Position: {x: 949, y: -695}
+    ChoiceStateType:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: Here's your apples!
+    - LanguageType: 2
+      LanguageGenericType: "\u0412\u043E\u0442 \u0442\u0432\u043E\u0438 \u044F\u0431\u043B\u043E\u043A\u0438!"
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    EventDataStringConditions:
+    - StringEventText:
+        Value: quest_apples_complete
+      Number:
+        Value: 0
+      StringEventConditionType:
+        Value: 2

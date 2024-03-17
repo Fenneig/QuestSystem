@@ -7,15 +7,15 @@ namespace QuestSystem.Controls
         private Transform _rotationObjectTransform;
         private Transform _followObjectTransform;
         private InputReader _inputReader;
-        private float _rotationPower;
-        private float _maxAngle, _minAngle;
+        private float _maxAngle, _minAngle, _horizontalRotationSpeed, _verticalRotationSpeed;
 
-        public CameraRotator(Transform rotationObject, Transform followObjectTransform,  InputReader inputReader, float rotationPower, float maxAngle, float minAngle)
+        public CameraRotator(Transform rotationObject, Transform followObjectTransform,  InputReader inputReader, float horizontalRotationSpeed,float verticalRotationSpeed, float maxAngle, float minAngle)
         {
             _rotationObjectTransform = rotationObject;
             _followObjectTransform = followObjectTransform;
             _inputReader = inputReader;
-            _rotationPower = rotationPower;
+            _horizontalRotationSpeed = horizontalRotationSpeed;
+            _verticalRotationSpeed = verticalRotationSpeed;
             _maxAngle = maxAngle;
             _minAngle = minAngle;
         }
@@ -29,12 +29,12 @@ namespace QuestSystem.Controls
 
         private void HorizontalRotate()
         {
-            _rotationObjectTransform.rotation *= Quaternion.AngleAxis(_inputReader.Look.x * _rotationPower, Vector3.up);
+            _rotationObjectTransform.rotation *= Quaternion.AngleAxis(_inputReader.Look.x * _horizontalRotationSpeed, Vector3.up);
         }
 
         private void VerticalRotate()
         {
-            _followObjectTransform.rotation *= Quaternion.AngleAxis(_inputReader.Look.y * _rotationPower, Vector3.right);
+            _followObjectTransform.rotation *= Quaternion.AngleAxis(_inputReader.Look.y * _verticalRotationSpeed, Vector3.right);
 
             Vector3 angles = _followObjectTransform.localEulerAngles;
             angles.z = 0;

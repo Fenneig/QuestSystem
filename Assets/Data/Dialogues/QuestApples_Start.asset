@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a25e0e4c52c8e4393e1a5721365c2c, type: 3}
+  m_Name: QuestApples_Start
+  m_EditorClassIdentifier: 
+  NodeLinkData:
+  - BaseNodeGuid: 3b4b4f5f-e9ab-4dd8-9309-fe6914e1822a
+    BasePortGuid: Output
+    TargetNodeGuid: 7caa8401-6900-43fd-beea-91ca8c9ef2be
+    TargetPortGuid: Input
+  - BaseNodeGuid: 53057577-5dd7-41f2-8ec9-af7622f316e8
+    BasePortGuid: Output
+    TargetNodeGuid: aecbc243-1ccb-45fe-893b-f563643c0d4b
+    TargetPortGuid: Input
+  - BaseNodeGuid: 19ed3eb2-09c2-43e2-a49b-4d46f004027d
+    BasePortGuid: Output
+    TargetNodeGuid: 1c0c8810-0ca7-4631-b583-11a71d30aef1
+    TargetPortGuid: Input
+  - BaseNodeGuid: aecbc243-1ccb-45fe-893b-f563643c0d4b
+    BasePortGuid: Output
+    TargetNodeGuid: 06e1081d-dff8-494d-ba20-a06d5782e9ec
+    TargetPortGuid: Input
+  - BaseNodeGuid: 7caa8401-6900-43fd-beea-91ca8c9ef2be
+    BasePortGuid: 44b41979-0879-4a17-bc53-c13249e63d08
+    TargetNodeGuid: 53057577-5dd7-41f2-8ec9-af7622f316e8
+    TargetPortGuid: Input
+  - BaseNodeGuid: 7caa8401-6900-43fd-beea-91ca8c9ef2be
+    BasePortGuid: fc1b5b55-5d13-4daa-9f6f-bb0e9c5243c4
+    TargetNodeGuid: 19ed3eb2-09c2-43e2-a49b-4d46f004027d
+    TargetPortGuid: Input
+  StartData:
+  - NodeGuid: 3b4b4f5f-e9ab-4dd8-9309-fe6914e1822a
+    Position: {x: 412, y: 171}
+  DialogueData:
+  - NodeGuid: 7caa8401-6900-43fd-beea-91ca8c9ef2be
+    Position: {x: 580, y: 191}
+    DialogueDataNames:
+    - ID:
+        Value: 0
+      GuidID:
+        Value: ae7629d6-fd90-4022-ba96-a8ec01c1499a
+      CharacterName:
+      - LanguageType: 1
+        LanguageGenericType: Applejack
+      - LanguageType: 2
+        LanguageGenericType: "\u042D\u043F\u043F\u043B\u0434\u0436\u0435\u043A"
+    DialogueDataTexts:
+    - ID:
+        Value: 2
+      GuidID:
+        Value: 2c376d1a-fcb0-42fe-893f-a99755776ceb
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: Hi!
+      - LanguageType: 2
+        LanguageGenericType: "\u041F\u0440\u0438\u0432\u0435\u0442!"
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 05b7f055-10e8-49d2-b4fc-feecc46df240
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: I am Applejack, and i love apples!
+      - LanguageType: 2
+        LanguageGenericType: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442
+          \u042D\u043F\u043F\u043B\u0434\u0436\u0435\u043A! \u042F \u043E\u0447\u0435\u043D\u044C
+          \u043B\u044E\u0431\u043B\u044E \u044F\u0431\u043B\u043E\u043A\u0438!"
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+    - ID:
+        Value: 4
+      GuidID:
+        Value: 04142912-0a0a-4343-a2a1-10b70167de17
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: Could you please help me and collect some apples from
+          farm for me?
+      - LanguageType: 2
+        LanguageGenericType: "\u041C\u043E\u0436\u0435\u0448\u044C \u043F\u043E\u043C\u043E\u0447\u044C
+          \u043C\u043D\u0435 \u0438 \u043F\u0440\u0438\u043D\u0435\u0441\u0442\u0438
+          \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u044F\u0431\u043B\u043E\u043A
+          \u0441 \u0444\u0435\u0440\u043C\u044B?"
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+    DialogueDataImages:
+    - ID:
+        Value: 1
+      LeftSprite:
+        Value: {fileID: 21300000, guid: 5f1b4b02f9fc06248a9c9ae624b4dcf5, type: 3}
+      RightSprite:
+        Value: {fileID: 21300000, guid: 002f6f7ab95415e46b133504b5b548cc, type: 3}
+    DialogueDataPorts:
+    - ID:
+        Value: 0
+      PortGuid: 44b41979-0879-4a17-bc53-c13249e63d08
+      InputGuid: 53057577-5dd7-41f2-8ec9-af7622f316e8
+      OutputGuid: 7caa8401-6900-43fd-beea-91ca8c9ef2be
+    - ID:
+        Value: 0
+      PortGuid: fc1b5b55-5d13-4daa-9f6f-bb0e9c5243c4
+      InputGuid: 19ed3eb2-09c2-43e2-a49b-4d46f004027d
+      OutputGuid: 7caa8401-6900-43fd-beea-91ca8c9ef2be
+  EventData:
+  - NodeGuid: aecbc243-1ccb-45fe-893b-f563643c0d4b
+    Position: {x: 1420, y: 47}
+    EventDataStringModifiers: []
+    ContainerDialogueEventSOs:
+    - DialogueEventSO: {fileID: 11400000, guid: c10351e504452d54595e56128157bd9d,
+        type: 2}
+  EndData:
+  - NodeGuid: 06e1081d-dff8-494d-ba20-a06d5782e9ec
+    Position: {x: 1875, y: -13}
+    EndNodeType:
+      Value: 1
+  - NodeGuid: 1c0c8810-0ca7-4631-b583-11a71d30aef1
+    Position: {x: 1411, y: 321}
+    EndNodeType:
+      Value: 1
+  BranchData: []
+  ChoiceData:
+  - NodeGuid: 53057577-5dd7-41f2-8ec9-af7622f316e8
+    Position: {x: 1023, y: 115}
+    ChoiceStateType:
+      Value: 2
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: Hi! Yes of course i'll help!
+    - LanguageType: 2
+      LanguageGenericType: "\u041F\u0440\u0438\u0432\u0435\u0442! \u0414\u0430 \u043A\u043E\u043D\u0435\u0447\u043D\u043E
+        \u044F \u043F\u043E\u043C\u043E\u0433\u0443!"
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    EventDataStringConditions: []
+  - NodeGuid: 6c89d4f7-0723-4f85-ab56-7d6ba72ad52e
+    Position: {x: 1023, y: 543}
+    ChoiceStateType:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: TestNode1
+    - LanguageType: 2
+      LanguageGenericType: "\u0442\u0435\u0441\u04421"
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    EventDataStringConditions: []
+  - NodeGuid: fbc999e5-8be2-45aa-aa2b-7ea3f85510b1
+    Position: {x: 1023, y: 689}
+    ChoiceStateType:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: TestNode2
+    - LanguageType: 2
+      LanguageGenericType: "\u0442\u0435\u0441\u04422"
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    EventDataStringConditions:
+    - StringEventText:
+        Value: quest_apples_complete
+      Number:
+        Value: 0
+      StringEventConditionType:
+        Value: 1
+  - NodeGuid: 53777303-f58b-4617-b797-83401447480b
+    Position: {x: 1023, y: 909}
+    ChoiceStateType:
+      Value: 2
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: TestNode3
+    - LanguageType: 2
+      LanguageGenericType: "\u0442\u0435\u0441\u04423"
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    EventDataStringConditions:
+    - StringEventText:
+        Value: quest_apples_complete
+      Number:
+        Value: 0
+      StringEventConditionType:
+        Value: 1
+  - NodeGuid: 19ed3eb2-09c2-43e2-a49b-4d46f004027d
+    Position: {x: 1023, y: 290}
+    ChoiceStateType:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: Um.. no i'm busy
+    - LanguageType: 2
+      LanguageGenericType: "\u042D\u043C... \u042F \u0441\u0435\u0439\u0447\u0430\u0441
+        \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u043D\u044F\u0442."
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    EventDataStringConditions: []
